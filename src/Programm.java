@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 import java.util.*;
 public class Programm {
     static String array1[];
@@ -109,6 +109,6 @@ public class Programm {
             fw.write ("\n"  );
         }
         fw.close ();
-        System.out.println ( "Исходный файл " + fileNameString + " успешно конвертирован  в convert.csv в директории " + pathToFileString );
+        System.out.println ( "Исходный фай " + fileNameString + " успешно конвертирован  в convert.csv в директории " + pathToFileString );
     }
 }
